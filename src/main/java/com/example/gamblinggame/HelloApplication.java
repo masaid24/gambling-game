@@ -17,7 +17,7 @@ import static com.example.gamblinggame.Comparison.c;
 
 public class HelloApplication extends Application {
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage){
         stage.setTitle("Gambling Game");
 
         // initialisation of the template
@@ -66,7 +66,7 @@ public class HelloApplication extends Application {
         });
 
         // adjusting the credit section
-        Text credit = new Text("Made by MAHDI SAID and KHAIRI HAMMAMi for the java mid-term project" +
+        Text credit = new Text("Made by MAHDI SAID, KHAIRI HAMMAMi and EYA MOALLA for the java mid-term project" +
                 "\nunder the supervision of Mr AHMED BEN HAMOUDA.");
         credit.setTextAlignment(TextAlignment.CENTER);
         credit.setFont(Font.font("Times New Roman\n", FontWeight.LIGHT, FontPosture.REGULAR, 13));
